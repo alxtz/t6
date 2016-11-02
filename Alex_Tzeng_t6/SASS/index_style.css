@@ -1,7 +1,7 @@
 /* bd == border */
 /* shH == shortHeight ; lgH == longHeight */
 div#background {
-	border: 0px solid red;
+	border: 2px solid red;
 	position: relative;
 	padding-top: 10px;
 	padding-bottom: 100px;
@@ -9,7 +9,7 @@ div#background {
 }
 
 div#background div#backgroundHead {
-	border: 0px solid yellow;
+	border: 2px solid yellow;
 	height: 75px;
 	background-color: #1c1c1c;
 	position: absolute;
@@ -18,7 +18,7 @@ div#background div#backgroundHead {
 }
 
 div#background div#backgroundFoot {
-	border: 0px solid cyan;
+	border: 2px solid cyan;
 	height: 75px;
 	background-color: #1c1c1c;
 	position: absolute;
@@ -27,7 +27,7 @@ div#background div#backgroundFoot {
 }
 
 div#background div#content {
-	border: 0px solid red;
+	border: 2px solid red;
 	margin-left: 7.5vw;
 	margin-right: 7.5vw;
 	position: relative;
@@ -35,28 +35,28 @@ div#background div#content {
 }
 
 div#background div#content div#Header {
-	border: 0px solid yellow;
+	border: 2px solid yellow;
 	background-color: white;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 div#background div#content div#Header div.container-fluid {
-	border: 0px solid purple;
+	border: 2px solid purple;
 }
 
 div#background div#content div#Header div.container-fluid div.row {
-	border: 0px solid cyan;
+	border: 2px solid cyan;
 	height: 100%;
 }
 
 div#background div#content div#Header div.container-fluid div.row div.col-sm-6 {
-	border: 0px solid red;
+	border: 2px solid red;
 	padding: 2vw;
 	padding-bottom: 20px;
 }
 
 div#background div#content div#Header div.container-fluid div.row div.col-sm-6 img {
-	border: 0px solid yellow;
+	border: 2px solid yellow;
 	height: 55px;
 	max-width: 100%;
 }
@@ -84,114 +84,112 @@ div#background div#content div#Header div.container-fluid div.row div.col-sm-6 d
 }
 
 div#background div#content div#body {
-	border: 0px solid purple;
+	border: 2px solid purple;
 	margin-top: 2vw;
 	background-color: transparent;
 }
 
 div#background div#content div#body div.foo {
-	border: 0px solid yellow;
+	border: 2px solid yellow;
 }
 
-div#background div#content div#body div.container-fluid {
-	border: 0px solid purple;
+div#background div#content div#body div#navSearchBar {
+	border: 2px solid purple;
 }
 
-div#background div#content div#body div.container-fluid div.row {
-	border: 0px solid cyan;
+div#background div#content div#body div#navSearchBar div.row {
+	border: 2px solid cyan;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 {
-	border: 0px solid red;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 {
+	border: 2px solid red;
 	padding: 0;
 	padding-left: 0.25vw;
 	padding-right: 0.25vw;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav {
-	border: 0px solid yellow;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav {
+	border: 2px solid yellow;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-header {
-	border: 0px solid purple;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-header {
+	border: 2px solid purple;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-header button {
-	border: 0px solid red;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-header button {
+	border: 2px solid red;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse {
-	border: 0px solid cyan;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse {
+	border: 2px solid cyan;
 	padding: 0;
 	background-color: white;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul {
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul {
 	margin: 0;
-	border: 0px solid red;
+	border: 2px solid red;
 	background-color: white;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li {
-	border: 0px solid yellow;
-	border-bottom: 1px solid grey;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li {
+	border: 2px solid yellow;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li a {
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li a {
 	border-right: 1px solid grey;
 	font-family: Arial;
 	color: #262626;
 	font-size: 14px;
-	padding: 20px 22.5px;
+	padding: 20px 20.5px;
 	height: 60px;
 	background-color: white;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li a:hover {
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li a:hover {
 	color: white;
 	background-color: #80b600;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li a:focus {
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li a:focus {
 	color: white;
 	background-color: #80b600;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown {
-	border: 0px solid purple;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown {
+	border: 2px solid purple;
 	background-color: #aaa;
-	border-bottom: 1px solid grey;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul {
-	border: 0px solid cyan;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul {
+	border: 2px solid cyan;
 	padding: 0;
 	background-color: #aaa;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li {
-	border: 0px solid red;
-	border-bottom: 1px solid grey;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li {
+	border: 2px solid red;
+	border-top: 1px solid grey;
 	background-color: #aaa;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a {
-	border: 0px solid yellow;
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a {
+	border: 2px solid yellow;
 	margin: 0;
 	background-color: #eee;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a:hover {
+div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a:hover {
 	color: white;
 	background-color: #6cac1e;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-3 {
-	border: 0px solid red;
+div#background div#content div#body div#navSearchBar div.row div.col-md-3 {
+	border: 2px solid red;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 	height: 60px;
 	background-color: white;
@@ -199,8 +197,8 @@ div#background div#content div#body div.container-fluid div.row div.col-md-3 {
 	position: relative;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-3 input {
-	border: 0px solid yellow;
+div#background div#content div#body div#navSearchBar div.row div.col-md-3 input {
+	border: 2px solid yellow;
 	height: 40px;
 	width: 100%;
 	padding: 10px;
@@ -209,7 +207,7 @@ div#background div#content div#body div.container-fluid div.row div.col-md-3 inp
 	border: 1px solid #e5e5e5;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-3 div {
+div#background div#content div#body div#navSearchBar div.row div.col-md-3 div {
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -218,7 +216,14 @@ div#background div#content div#body div.container-fluid div.row div.col-md-3 div
 	padding: 10px;
 }
 
-div#background div#content div#body div.container-fluid div.row div.col-md-3 div a img {
+div#background div#content div#body div#navSearchBar div.row div.col-md-3 div a img {
 	height: 20px;
 	width: 20px;
+}
+
+div#background div#content div#body div#carousel {
+	border: 2px solid red;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	margin-top: 0px;
+	padding: 0;
 }
