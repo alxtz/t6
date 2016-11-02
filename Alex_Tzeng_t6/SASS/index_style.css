@@ -1,0 +1,224 @@
+/* bd == border */
+/* shH == shortHeight ; lgH == longHeight */
+div#background {
+	border: 0px solid red;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	background-color: grey;
+}
+
+div#background div#backgroundHead {
+	border: 0px solid yellow;
+	height: 75px;
+	background-color: #1c1c1c;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+div#background div#backgroundFoot {
+	border: 0px solid cyan;
+	height: 75px;
+	background-color: #1c1c1c;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+div#background div#content {
+	border: 0px solid red;
+	margin-left: 7.5vw;
+	margin-right: 7.5vw;
+	position: relative;
+	height: 1500px;
+}
+
+div#background div#content div#Header {
+	border: 0px solid yellow;
+	background-color: white;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+div#background div#content div#Header div.container-fluid {
+	border: 0px solid purple;
+}
+
+div#background div#content div#Header div.container-fluid div.row {
+	border: 0px solid cyan;
+	height: 100%;
+}
+
+div#background div#content div#Header div.container-fluid div.row div.col-sm-6 {
+	border: 0px solid red;
+	padding: 2vw;
+	padding-bottom: 20px;
+}
+
+div#background div#content div#Header div.container-fluid div.row div.col-sm-6 img {
+	border: 0px solid yellow;
+	height: 55px;
+	max-width: 100%;
+}
+
+div#background div#content div#Header div.container-fluid div.row div.col-sm-6 div#contactBox div#iconBox {
+	height: 30px;
+}
+
+div#background div#content div#Header div.container-fluid div.row div.col-sm-6 div#contactBox div#iconBox a {
+	display: block;
+	float: right;
+	margin-right: 10px;
+}
+
+div#background div#content div#Header div.container-fluid div.row div.col-sm-6 div#contactBox div#iconBox a img {
+	height: 100%;
+}
+
+div#background div#content div#Header div.container-fluid div.row div.col-sm-6 div#contactBox div#telBox p {
+	margin-bottom: 0;
+	margin-top: 5px;
+	margin-right: 10px;
+	word-break: break-all;
+	text-align: right;
+}
+
+div#background div#content div#body {
+	border: 0px solid purple;
+	margin-top: 2vw;
+	background-color: transparent;
+}
+
+div#background div#content div#body div.foo {
+	border: 0px solid yellow;
+}
+
+div#background div#content div#body div.container-fluid {
+	border: 0px solid purple;
+}
+
+div#background div#content div#body div.container-fluid div.row {
+	border: 0px solid cyan;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 {
+	border: 0px solid red;
+	padding: 0;
+	padding-left: 0.25vw;
+	padding-right: 0.25vw;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav {
+	border: 0px solid yellow;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-header {
+	border: 0px solid purple;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-header button {
+	border: 0px solid red;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse {
+	border: 0px solid cyan;
+	padding: 0;
+	background-color: white;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul {
+	margin: 0;
+	border: 0px solid red;
+	background-color: white;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li {
+	border: 0px solid yellow;
+	border-bottom: 1px solid grey;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li a {
+	border-right: 1px solid grey;
+	font-family: Arial;
+	color: #262626;
+	font-size: 14px;
+	padding: 20px 22.5px;
+	height: 60px;
+	background-color: white;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li a:hover {
+	color: white;
+	background-color: #80b600;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li a:focus {
+	color: white;
+	background-color: #80b600;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown {
+	border: 0px solid purple;
+	background-color: #aaa;
+	border-bottom: 1px solid grey;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul {
+	border: 0px solid cyan;
+	padding: 0;
+	background-color: #aaa;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li {
+	border: 0px solid red;
+	border-bottom: 1px solid grey;
+	background-color: #aaa;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a {
+	border: 0px solid yellow;
+	margin: 0;
+	background-color: #eee;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a:hover {
+	color: white;
+	background-color: #6cac1e;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-3 {
+	border: 0px solid red;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	height: 60px;
+	background-color: white;
+	padding: 12.5px 17.5px;
+	position: relative;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-3 input {
+	border: 0px solid yellow;
+	height: 40px;
+	width: 100%;
+	padding: 10px;
+	background-color: #f3f3f3;
+	color: #a1a1a1;
+	border: 1px solid #e5e5e5;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-3 div {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 12.5px;
+	right: 17.5px;
+	padding: 10px;
+}
+
+div#background div#content div#body div.container-fluid div.row div.col-md-3 div a img {
+	height: 20px;
+	width: 20px;
+}
