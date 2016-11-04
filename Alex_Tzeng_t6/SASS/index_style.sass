@@ -1,5 +1,7 @@
 $border-width: 2px
 
+$text-border-width: 0px
+
 @mixin bd1
     border: $border-width solid red
 @mixin bd2
@@ -29,6 +31,7 @@ div#background
     padding-top: 10px
     padding-bottom: 100px
     background-color: grey
+    z-index: 0
     div#backgroundHead
         +bd2
         +shH
@@ -48,7 +51,6 @@ div#background
         margin-left: 7.5vw
         margin-right: 7.5vw
         position: relative
-        height: 1500px
         div#Header
             +bd2
             background-color: white
@@ -87,7 +89,9 @@ div#background
             margin-top: 2vw
             background-color: transparent
             div.foo
-                +bd2
+                +bd4
+                background-color: #444
+                height: 500px
             div#navSearchBar
                 +bd3
                 div.row
@@ -115,11 +119,11 @@ div#background
                                     li
                                         +bd2
                                         a
-                                            border-right: 1px solid grey
+                                            border-right: 1px solid #ccc
                                             font-family: Arial
                                             color: rgb(38,38,38)
                                             font-size: 14px
-                                            padding: 20px 20.5px
+                                            padding: 20px 19px
                                             height: 60px
                                             background-color: white
                                         a:hover
@@ -139,12 +143,12 @@ div#background
                                             background-color: #aaa
                                             li
                                                 +bd1
-                                                border-top: 1px solid grey
-                                                background-color: #aaa
+                                                border-top: 1px solid #ccc
+                                                background-color: #888
                                                 a
                                                     +bd2
                                                     margin: 0
-                                                    background-color: #eee
+                                                    background-color: #dddddd
                                                 a:hover
                                                     color: white
                                                     background-color: rgb(108,172,30)
@@ -180,6 +184,177 @@ div#background
             div#carousel
                 +bd1
                 +bxShw
+                position: relative
+                z-index: 0
                 margin-top: 0px
                 padding: 0
                 div#myCarousel
+
+            div#featureBar
+                +bd2
+                margin-top: -3.25vw
+                background-color: rgb(252,252,252)
+                div.row
+                    +bd3
+                    margin: 0
+                    padding-left: 1.5vw
+                    padding-right: 1.5vw
+                    div.col-md-6
+                        +bd4
+                        padding: 0
+                        div.row
+                            +bd1
+                            padding: 0
+                            div.col-xs-6
+                                +bd2
+                                padding: 1vw
+                                div.featureCard
+                                    +bd3
+                                    +bxShw
+                                    background-color: rgb(230,230,230)
+                                    padding-bottom: 20px
+                                    position: relative
+                                    p.featureTitle
+                                        +bd4
+                                        border: $text-border-width solid yellow
+                                        font-family: Arial
+                                        font-size: 2.25vh
+                                        text-align: center
+                                        letter-spacing: 1px
+                                        padding: 2vw
+                                        margin-bottom: 0
+                                    img.featureIcon
+                                        +bd1
+                                        display: block
+                                        border: $text-border-width solid red
+                                        margin: 0 auto
+                                        height: 65px
+                                        width: 65px
+                                    p.featureInfo
+                                        border: $text-border-width solid yellow
+                                        font-family: Arial
+                                        font-size: 1.75vh
+                                        text-align: center
+                                        padding: 2vw
+                                        padding-bottom: 0
+                                        margin-bottom: 0.75vw
+                                        height: 10vw
+                                        text-overflow: ellipsis
+                                        overflow: hidden
+                                    a.more
+                                        display: block
+                                        border: $text-border-width solid red
+                                        color: rgb(28,28,28)
+                                        font-size: 12px
+                                        padding: 10px
+                                        text-align: center
+                                        width: 60px
+                                        background-color: rgb(204,204,204)
+                                        margin: 0 auto
+                                        text-decoration: none
+                                div.premium
+                                    background-color: rgba(60,60,60,0.79)
+                                    border: 1px solid black
+                                    p
+                                        color: white
+
+            div#introBar
+                +bd3
+                background-color: rgb(252,252,252)
+                div.row
+                    +bd4
+                    padding-left: 1.5vw
+                    padding-right: 1.5vw
+                    margin: 0
+                    div.col-md-4
+                        +bd1
+                        padding: 1.5vw
+                        padding-top: 3vw
+                        p.introTitle
+                            +bd2
+                            font-family: "Helvetica Neue"
+                            font-weight: 400
+                            color: black
+                            font-size: 22.5px
+                            letter-spacing: 1px
+                            margin-bottom: 2vw
+                        img#building
+                            +bd3
+                            display: block
+                            width: 100%
+                            margin-bottom: 1.5vw
+                        p.introText
+                            +bd4
+                            margin-bottom: 0
+                            color: #777
+                            a
+                                color: black
+                                text-decoration: none
+                        div.chooseBlock
+                            +bd1
+                            margin-top: 20px
+                            height: 80+4px
+                            border-bottom: 2px solid #eee
+                            div.iconBlock
+                                +bd4
+                                width: 50px
+                                height: 50px
+                                float: left
+                                margin-left: 5px
+                                img
+                                    +bd2
+                                    width: 100%
+                                    height: 100%
+                            div.textBlock
+                                +bd2
+                                float: left
+                                width: 65%
+                                padding-top: 15px
+                                margin-left: 10px
+                                p
+                                    +bd3
+                                    color: #777
+                        div.newsBlock
+                            +bd4
+                            height: 140px
+                            margin-bottom: 20px
+                            div.newsImgBlock
+                                +bd1
+                                width: 40%
+                                max-width: 150px
+                                float: left
+                                img
+                                    width: 100%
+                                    height: 100%
+                            div.newsTextBlock
+                                +bd3
+                                float: left
+                                width: 50%
+                                margin-left: 5%
+                                p.date
+                                    font-family: Arial
+                                    background-color: rgb(130,181,0)
+                                    display: inline-block
+                                    padding: 5px 12.5px
+                                    color: white
+                                p.newsText
+                                    +bd4
+                                    margin-bottom: 0
+                                    word-break: break-all
+                                    color: #777
+                                    a
+                                        color: black
+                                        text-decoration: none
+
+            div.breakLine
+                +bd1
+                background-color: rgb(252,252,252)
+                padding: 50px 20px
+                div.theLine
+                    height: 1px
+                    background-color: #ccc
+
+            div#featuredWorksBlock
+                +bd3
+                height: 1000px
+                background-color: rgb(252,252,252)

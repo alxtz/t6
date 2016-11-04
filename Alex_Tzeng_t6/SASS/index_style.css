@@ -6,6 +6,7 @@ div#background {
 	padding-top: 10px;
 	padding-bottom: 100px;
 	background-color: grey;
+	z-index: 0;
 }
 
 div#background div#backgroundHead {
@@ -31,7 +32,6 @@ div#background div#content {
 	margin-left: 7.5vw;
 	margin-right: 7.5vw;
 	position: relative;
-	height: 1500px;
 }
 
 div#background div#content div#Header {
@@ -90,7 +90,9 @@ div#background div#content div#body {
 }
 
 div#background div#content div#body div.foo {
-	border: 2px solid yellow;
+	border: 2px solid cyan;
+	background-color: #444;
+	height: 500px;
 }
 
 div#background div#content div#body div#navSearchBar {
@@ -138,11 +140,11 @@ div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav di
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li a {
-	border-right: 1px solid grey;
+	border-right: 1px solid #ccc;
 	font-family: Arial;
 	color: #262626;
 	font-size: 14px;
-	padding: 20px 20.5px;
+	padding: 20px 19px;
 	height: 60px;
 	background-color: white;
 }
@@ -172,14 +174,14 @@ div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav di
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li {
 	border: 2px solid red;
-	border-top: 1px solid grey;
-	background-color: #aaa;
+	border-top: 1px solid #ccc;
+	background-color: #888;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a {
 	border: 2px solid yellow;
 	margin: 0;
-	background-color: #eee;
+	background-color: #dddddd;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a:hover {
@@ -224,6 +226,241 @@ div#background div#content div#body div#navSearchBar div.row div.col-md-3 div a 
 div#background div#content div#body div#carousel {
 	border: 2px solid red;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	position: relative;
+	z-index: 0;
 	margin-top: 0px;
 	padding: 0;
+}
+
+div#background div#content div#body div#featureBar {
+	border: 2px solid yellow;
+	margin-top: -3.25vw;
+	background-color: #fcfcfc;
+}
+
+div#background div#content div#body div#featureBar div.row {
+	border: 2px solid purple;
+	margin: 0;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 {
+	border: 2px solid cyan;
+	padding: 0;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row {
+	border: 2px solid red;
+	padding: 0;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 {
+	border: 2px solid yellow;
+	padding: 1vw;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard {
+	border: 2px solid purple;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	background-color: #e6e6e6;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard p.featureTitle {
+	border: 2px solid cyan;
+	border: 0px solid yellow;
+	font-family: Arial;
+	font-size: 2.25vh;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 2vw;
+	margin-bottom: 0;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard img.featureIcon {
+	border: 2px solid red;
+	display: block;
+	border: 0px solid red;
+	margin: 0 auto;
+	height: 65px;
+	width: 65px;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard p.featureInfo {
+	border: 0px solid yellow;
+	font-family: Arial;
+	font-size: 1.75vh;
+	text-align: center;
+	padding: 2vw;
+	padding-bottom: 0;
+	margin-bottom: 0.75vw;
+	height: 10vw;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard a.more {
+	display: block;
+	border: 0px solid red;
+	color: #1c1c1c;
+	font-size: 12px;
+	padding: 10px;
+	text-align: center;
+	width: 60px;
+	background-color: #cccccc;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.premium {
+	background-color: rgba(60, 60, 60, 0.79);
+	border: 1px solid black;
+}
+
+div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.premium p {
+	color: white;
+}
+
+div#background div#content div#body div#introBar {
+	border: 2px solid purple;
+	background-color: #fcfcfc;
+}
+
+div#background div#content div#body div#introBar div.row {
+	border: 2px solid cyan;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	margin: 0;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 {
+	border: 2px solid red;
+	padding: 1.5vw;
+	padding-top: 3vw;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 p.introTitle {
+	border: 2px solid yellow;
+	font-family: "Helvetica Neue";
+	font-weight: 400;
+	color: black;
+	font-size: 22.5px;
+	letter-spacing: 1px;
+	margin-bottom: 2vw;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 img#building {
+	border: 2px solid purple;
+	display: block;
+	width: 100%;
+	margin-bottom: 1.5vw;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 p.introText {
+	border: 2px solid cyan;
+	margin-bottom: 0;
+	color: #777;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 p.introText a {
+	color: black;
+	text-decoration: none;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock {
+	border: 2px solid red;
+	margin-top: 20px;
+	height: 84px;
+	border-bottom: 2px solid #eee;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.iconBlock {
+	border: 2px solid cyan;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 5px;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.iconBlock img {
+	border: 2px solid yellow;
+	width: 100%;
+	height: 100%;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.textBlock {
+	border: 2px solid yellow;
+	float: left;
+	width: 65%;
+	padding-top: 15px;
+	margin-left: 10px;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.textBlock p {
+	border: 2px solid purple;
+	color: #777;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock {
+	border: 2px solid cyan;
+	height: 140px;
+	margin-bottom: 20px;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsImgBlock {
+	border: 2px solid red;
+	width: 40%;
+	max-width: 150px;
+	float: left;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsImgBlock img {
+	width: 100%;
+	height: 100%;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsTextBlock {
+	border: 2px solid purple;
+	float: left;
+	width: 50%;
+	margin-left: 5%;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsTextBlock p.date {
+	font-family: Arial;
+	background-color: #82b500;
+	display: inline-block;
+	padding: 5px 12.5px;
+	color: white;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsTextBlock p.newsText {
+	border: 2px solid cyan;
+	margin-bottom: 0;
+	word-break: break-all;
+	color: #777;
+}
+
+div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsTextBlock p.newsText a {
+	color: black;
+	text-decoration: none;
+}
+
+div#background div#content div#body div.breakLine {
+	border: 2px solid red;
+	background-color: #fcfcfc;
+	padding: 50px 20px;
+}
+
+div#background div#content div#body div.breakLine div.theLine {
+	height: 1px;
+	background-color: #ccc;
+}
+
+div#background div#content div#body div#featuredWorksBlock {
+	border: 2px solid purple;
+	height: 1000px;
+	background-color: #fcfcfc;
 }
