@@ -29,7 +29,6 @@ div#background
     +bd1
     position: relative
     padding-top: 10px
-    padding-bottom: 100px
     background-color: grey
     z-index: 0
     div#backgroundHead
@@ -41,7 +40,7 @@ div#background
         width: 100%
     div#backgroundFoot
         +bd4
-        +shH
+        height: 250px
         +bgBlack
         position: absolute
         bottom: 0
@@ -84,10 +83,11 @@ div#background
                                     margin-right: 10px
                                     word-break: break-all
                                     text-align: right
-        div#body
+        div#Body
             +bd3
             margin-top: 2vw
             background-color: transparent
+            +bxShw
             div.foo
                 +bd4
                 background-color: #444
@@ -99,8 +99,8 @@ div#background
                     div.col-md-9
                         +bd1
                         padding: 0
-                        padding-left: 0.25vw
-                        padding-right: 0.25vw
+                        padding-left: 0.20vw
+                        padding-right: 0.20vw
                         nav
                             +bd2
                             +bxShw
@@ -372,7 +372,7 @@ div#background
                     padding-bottom: 1.5vw
                     p.workTitle
                         +bd2
-                        width: 300px
+                        width: 250px
                         font-family: "Helvetica Neue"
                         font-weight: 400
                         color: black
@@ -382,7 +382,8 @@ div#background
                         display: inline-block
                     div
                         +bd1
-                        position: static
+                        position: relative
+                        z-index: 10
                         float: right
                         background-image: none
                         background-color: transparent
@@ -390,7 +391,7 @@ div#background
                         margin-top: 2vw
                         width: 35px
                         height: 35px
-                        margin-left: 5px
+                        margin-left: 0px
                         cursor: pointer
                         span
                             margin: auto
@@ -416,3 +417,153 @@ div#background
                                             +bd4
                                             width: 100%
                                             +bxShw
+
+        div#Footer
+            +bd1
+            +bxShw
+            margin-top: 4vw
+            background-color: rgb(252,252,252)
+            padding: 2vw
+            div.container-fluid
+                +bd2
+                div.row
+                    +bd3
+                    div.col-md-3
+                        +bd4
+                        padding: 1vw
+                        padding-bottom: 35px
+                        p.footerTitle
+                            +bd1
+                            margin: 0
+                            font-family: "Helvetica Neue"
+                            font-weight: 400
+                            color: black
+                            font-size: 22.5px
+                            letter-spacing: 1px
+                            margin-bottom: 2vw
+                        p.tweetText
+                            +bd2
+                            font-family: "Helvetica Neue"
+                            font-weight: 400
+                            color: rgb(28,28,28)
+                            font-size: 16px
+                        div#chatBubble
+                            +bd3
+                            padding: 1vw 2vw
+                            border: 1px solid #bbb
+                            background-color: rgb(226,226,226)
+                        div#headBox
+                            +bd4
+                            height: 50px
+                            margin-top: 2.5vw
+                            div#headImgBox
+                                +bd3
+                                width: 50px
+                                height: 50px
+                                float: left
+                                img
+                                    width: 50px
+                                    height: 50px
+                            div#headTextBox
+                                +bd1
+                                float: left
+                                margin-left: 1vw
+                                p#headName
+                                    +bd2
+                                    margin-bottom: 0
+                                    font-size: 15px
+                                    margin-top: 5px
+                                    margin-bottom: 5px
+                                    color: #333
+                                a#headSite
+                                    +bd3
+                                    margin-bottom: 0
+                                    color: rgb(128,182,0)
+                                    font-style: italic
+                                    text-decoration: none
+                        input
+                            border: 1px solid #bbb
+                            background-color: rgb(226,226,226)
+                            width: 100%
+                            padding: 5px 7.5px
+                            margin-bottom: 5px
+                        input::-webkit-input-placeholder
+                            color: #888
+                        textarea
+                            width: 100%
+                            height: 10vw
+                            border: 1px solid #bbb
+                            background-color: rgb(226,226,226)
+                            padding: 5px 7.5px
+                            margin-bottom: 10px
+                        textarea::-webkit-input-placeholder
+                            color: #888
+                        a.clearButton
+                            display: inline-block
+                            font-family: Arial
+                            font-size: 14px
+                            background-color: rgb(28,28,28)
+                            color: #eee
+                            text-decoration: none
+                            padding: 5px 12.5px
+                        a.sendButton
+                            display: inline-block
+                            font-family: Arial
+                            font-size: 14px
+                            background-color: rgb(128,182,0)
+                            color: #eee
+                            text-decoration: none
+                            padding: 5px 12.5px
+                        img#flickr
+                            width: 100%
+                            max-width: 300px
+
+        div#endBar
+            +bd1
+            div.container-fluid
+                +bd2
+                div.row
+                    +bd3
+                    div.col-lg-6
+                        +bd4
+                        padding: 1vw 0
+                        position: relative
+                        min-height: 55px
+                        p.copyright
+                            +bd1
+                            display: inline-block
+                            margin-bottom: 0
+                            padding-right: 7.8px
+                            border-right: 2px solid grey
+                            font-size: 15px
+                            color: #666
+                        a.policy
+                            +bd2
+                            padding-left: 3.5px
+                            text-decoration: none
+                            display: inline-block
+                            margin-bottom: 0
+                            font-size: 15px
+                            color: rgb(128,182,0)
+                        ul
+                            +bd3
+                            list-style-type: none
+                            margin: 0
+                            display: inline-block
+                            padding-left: 0
+                            position: absolute
+                            right: 0
+                            li
+                                +bd4
+                                display: inline-block
+                                a
+                                    +bd1
+                                    font-size: 15px
+                                    color: #666
+                                    text-decoration: none
+                                    padding-left: 4px
+                                a.borderRight
+                                    border-right: 2px solid #ccc
+                                    padding-right: 8px
+                                a.actived
+                                    color: rgb(128,182,0)
