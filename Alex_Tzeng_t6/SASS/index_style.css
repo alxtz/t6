@@ -1,7 +1,7 @@
 /* bd == border */
 /* shH == shortHeight ; lgH == longHeight */
 div#background {
-	border: 2px solid red;
+	border: 0px solid red;
 	position: relative;
 	padding-top: 10px;
 	padding-bottom: 100px;
@@ -10,7 +10,7 @@ div#background {
 }
 
 div#background div#backgroundHead {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	height: 75px;
 	background-color: #1c1c1c;
 	position: absolute;
@@ -19,7 +19,7 @@ div#background div#backgroundHead {
 }
 
 div#background div#backgroundFoot {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	height: 75px;
 	background-color: #1c1c1c;
 	position: absolute;
@@ -28,35 +28,35 @@ div#background div#backgroundFoot {
 }
 
 div#background div#content {
-	border: 2px solid red;
+	border: 0px solid red;
 	margin-left: 7.5vw;
 	margin-right: 7.5vw;
 	position: relative;
 }
 
 div#background div#content div#Header {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	background-color: white;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 div#background div#content div#Header div.container-fluid {
-	border: 2px solid purple;
+	border: 0px solid purple;
 }
 
 div#background div#content div#Header div.container-fluid div.row {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	height: 100%;
 }
 
 div#background div#content div#Header div.container-fluid div.row div.col-sm-6 {
-	border: 2px solid red;
+	border: 0px solid red;
 	padding: 2vw;
 	padding-bottom: 20px;
 }
 
 div#background div#content div#Header div.container-fluid div.row div.col-sm-6 img {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	height: 55px;
 	max-width: 100%;
 }
@@ -84,59 +84,59 @@ div#background div#content div#Header div.container-fluid div.row div.col-sm-6 d
 }
 
 div#background div#content div#body {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	margin-top: 2vw;
 	background-color: transparent;
 }
 
 div#background div#content div#body div.foo {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	background-color: #444;
 	height: 500px;
 }
 
 div#background div#content div#body div#navSearchBar {
-	border: 2px solid purple;
+	border: 0px solid purple;
 }
 
 div#background div#content div#body div#navSearchBar div.row {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 {
-	border: 2px solid red;
+	border: 0px solid red;
 	padding: 0;
 	padding-left: 0.25vw;
 	padding-right: 0.25vw;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-header {
-	border: 2px solid purple;
+	border: 0px solid purple;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-header button {
-	border: 2px solid red;
+	border: 0px solid red;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	padding: 0;
 	background-color: white;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul {
 	margin: 0;
-	border: 2px solid red;
+	border: 0px solid red;
 	background-color: white;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li a {
@@ -162,24 +162,24 @@ div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav di
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	background-color: #aaa;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	padding: 0;
 	background-color: #aaa;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li {
-	border: 2px solid red;
+	border: 0px solid red;
 	border-top: 1px solid #ccc;
 	background-color: #888;
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav div.navbar-collapse ul li.dropdown ul li a {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	margin: 0;
 	background-color: #dddddd;
 }
@@ -191,7 +191,7 @@ div#background div#content div#body div#navSearchBar div.row div.col-md-9 nav di
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-3 {
-	border: 2px solid red;
+	border: 0px solid red;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 	height: 60px;
 	background-color: white;
@@ -200,7 +200,7 @@ div#background div#content div#body div#navSearchBar div.row div.col-md-3 {
 }
 
 div#background div#content div#body div#navSearchBar div.row div.col-md-3 input {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	height: 40px;
 	width: 100%;
 	padding: 10px;
@@ -224,7 +224,7 @@ div#background div#content div#body div#navSearchBar div.row div.col-md-3 div a 
 }
 
 div#background div#content div#body div#carousel {
-	border: 2px solid red;
+	border: 0px solid red;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
@@ -233,35 +233,35 @@ div#background div#content div#body div#carousel {
 }
 
 div#background div#content div#body div#featureBar {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	margin-top: -3.25vw;
 	background-color: #fcfcfc;
 }
 
 div#background div#content div#body div#featureBar div.row {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	margin: 0;
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
 }
 
 div#background div#content div#body div#featureBar div.row div.col-md-6 {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	padding: 0;
 }
 
 div#background div#content div#body div#featureBar div.row div.col-md-6 div.row {
-	border: 2px solid red;
+	border: 0px solid red;
 	padding: 0;
 }
 
 div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	padding: 1vw;
 }
 
 div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 	background-color: #e6e6e6;
 	padding-bottom: 20px;
@@ -269,7 +269,7 @@ div#background div#content div#body div#featureBar div.row div.col-md-6 div.row 
 }
 
 div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard p.featureTitle {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	border: 0px solid yellow;
 	font-family: Arial;
 	font-size: 2.25vh;
@@ -280,7 +280,7 @@ div#background div#content div#body div#featureBar div.row div.col-md-6 div.row 
 }
 
 div#background div#content div#body div#featureBar div.row div.col-md-6 div.row div.col-xs-6 div.featureCard img.featureIcon {
-	border: 2px solid red;
+	border: 0px solid red;
 	display: block;
 	border: 0px solid red;
 	margin: 0 auto;
@@ -324,25 +324,25 @@ div#background div#content div#body div#featureBar div.row div.col-md-6 div.row 
 }
 
 div#background div#content div#body div#introBar {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	background-color: #fcfcfc;
 }
 
 div#background div#content div#body div#introBar div.row {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	padding-left: 1.5vw;
 	padding-right: 1.5vw;
 	margin: 0;
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 {
-	border: 2px solid red;
+	border: 0px solid red;
 	padding: 1.5vw;
 	padding-top: 3vw;
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 p.introTitle {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	font-family: "Helvetica Neue";
 	font-weight: 400;
 	color: black;
@@ -352,14 +352,16 @@ div#background div#content div#body div#introBar div.row div.col-md-4 p.introTit
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 img#building {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	display: block;
 	width: 100%;
+	max-width: 400px;
 	margin-bottom: 1.5vw;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 p.introText {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	margin-bottom: 0;
 	color: #777;
 }
@@ -370,14 +372,14 @@ div#background div#content div#body div#introBar div.row div.col-md-4 p.introTex
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock {
-	border: 2px solid red;
+	border: 0px solid red;
 	margin-top: 20px;
 	height: 84px;
 	border-bottom: 2px solid #eee;
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.iconBlock {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	width: 50px;
 	height: 50px;
 	float: left;
@@ -385,13 +387,13 @@ div#background div#content div#body div#introBar div.row div.col-md-4 div.choose
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.iconBlock img {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	width: 100%;
 	height: 100%;
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.textBlock {
-	border: 2px solid yellow;
+	border: 0px solid yellow;
 	float: left;
 	width: 65%;
 	padding-top: 15px;
@@ -399,18 +401,18 @@ div#background div#content div#body div#introBar div.row div.col-md-4 div.choose
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.chooseBlock div.textBlock p {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	color: #777;
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	height: 140px;
 	margin-bottom: 20px;
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsImgBlock {
-	border: 2px solid red;
+	border: 0px solid red;
 	width: 40%;
 	max-width: 150px;
 	float: left;
@@ -419,10 +421,11 @@ div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBl
 div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsImgBlock img {
 	width: 100%;
 	height: 100%;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsTextBlock {
-	border: 2px solid purple;
+	border: 0px solid purple;
 	float: left;
 	width: 50%;
 	margin-left: 5%;
@@ -434,10 +437,11 @@ div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBl
 	display: inline-block;
 	padding: 5px 12.5px;
 	color: white;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBlock div.newsTextBlock p.newsText {
-	border: 2px solid cyan;
+	border: 0px solid cyan;
 	margin-bottom: 0;
 	word-break: break-all;
 	color: #777;
@@ -449,18 +453,88 @@ div#background div#content div#body div#introBar div.row div.col-md-4 div.newsBl
 }
 
 div#background div#content div#body div.breakLine {
-	border: 2px solid red;
+	border: 0px solid red;
 	background-color: #fcfcfc;
-	padding: 50px 20px;
+	padding: 3vw 3vw;
+	border-bottom: 0;
 }
 
 div#background div#content div#body div.breakLine div.theLine {
+	border: 0px solid purple;
 	height: 1px;
 	background-color: #ccc;
 }
 
 div#background div#content div#body div#featuredWorksBlock {
-	border: 2px solid purple;
-	height: 1000px;
+	border: 0px solid purple;
 	background-color: #fcfcfc;
+	padding: 0 2vw;
+	padding-bottom: 2.5vw;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.control-bar {
+	border: 0px solid cyan;
+	margin: 0 1vw;
+	padding-top: 2vw;
+	padding-bottom: 1.5vw;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.control-bar p.workTitle {
+	border: 0px solid yellow;
+	width: 300px;
+	font-family: "Helvetica Neue";
+	font-weight: 400;
+	color: black;
+	font-size: 22.5px;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.control-bar div {
+	border: 0px solid red;
+	position: static;
+	float: right;
+	background-image: none;
+	background-color: transparent;
+	opacity: 1;
+	margin-top: 2vw;
+	width: 35px;
+	height: 35px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.control-bar div span {
+	margin: auto;
+	padding: 5px;
+	border: 0px solid yellow;
+	position: static;
+	color: grey;
+	font-size: 15px;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.col-lg-12 {
+	border: 0px solid yellow;
+	float: none;
+	padding: 0;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.col-lg-12 div#myCarousel2 {
+	border: 0px solid purple;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.col-lg-12 div#myCarousel2 div.inner-2 {
+	border: 0px solid cyan;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.col-lg-12 div#myCarousel2 div.inner-2 div.item div.col-xs-3 {
+	border: 0px solid yellow;
+	padding: 1vw;
+}
+
+div#background div#content div#body div#featuredWorksBlock div.col-lg-12 div#myCarousel2 div.inner-2 div.item div.col-xs-3 a img {
+	border: 0px solid cyan;
+	width: 100%;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
